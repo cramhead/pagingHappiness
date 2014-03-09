@@ -1,0 +1,30 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router": {},
+      "meteor-pagemaster": {
+        "git": "https://github.com/cramhead/meteor-pagemaster.git",
+        "branch": "master"
+      },
+      "smart-publish": {}
+    },
+    "packages": {
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.4",
+        "commit": "927bbaed1b87894fb6fb70807f74ff3a5bd89f29"
+      },
+      "meteor-pagemaster": {
+        "git": "https://github.com/cramhead/meteor-pagemaster.git",
+        "branch": "master",
+        "commit": "6fcff1d7ae4b7f28a0be66e7d186562b32bcc09e"
+      },
+      "smart-publish": {
+        "git": "https://github.com/yeputons/meteor-smart-publish.git",
+        "tag": "v0.1.2",
+        "commit": "6012c0d3368669af0949cb1c4f4dcd0e94a15081"
+      }
+    }
+  }
+}

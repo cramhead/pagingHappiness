@@ -1,0 +1,44 @@
+<head>
+    <meta charset="utf-8">
+    <title>pagingHappiness</title>
+</head>
+
+<body>
+
+</body>
+
+<template name="layout">
+    <h1>Layout</h1>
+    {{yield}}
+</template>
+
+<template name="notFound">
+    <h1>Not Found</h1>
+</template>
+
+<template name="loading">
+    <h1>Loading</h1>
+</template>
+
+<template name="items">
+    <h2>Items</h2>
+
+    <ul>
+        {{#each item}}
+        <li>
+            <div>
+                {{name}} {{description}} {{created}} {{> user ownerId}}
+            </div>
+        </li>
+        {{else}}
+
+        <li>"No items"</li>
+
+        {{/each}}
+    </ul>
+</template>
+
+<template name="user">
+    {{#with Owner this}} 
+    Username: {{username}} {{/with}}
+</template>

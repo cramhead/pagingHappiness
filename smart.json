@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "iron-router": {},
+    "meteor-pagemaster": {
+      "git": "https://github.com/cramhead/meteor-pagemaster.git",
+      "branch": "master"
+    },
+    "smart-publish": {}
+  }
+}
